@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-center {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/*============================TOPO============================*/
+.secao-topo {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.topo-conteudo {
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-topo {
+    text-decoration: none;
+    color: slategray;
+}
+
+.topo-nome {
+    font-size: 22px;
+}
+
+.topo-nome .link-topo {
+    color: black;
+}
+
+.topo-nome span {
+    color: cornflowerblue;
+}
+
+.topo-links {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*============================CONTEÚDO============================*/
+.secao-banner {
+    background-image: url('../assets/img-fundo.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-conteudo {
+    background-color: #06a68eb8;
+    color: #fff;
+    border: 1px solid #fff;
+    width: calc(100% / 3);
+    height: calc((100% / 3) - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 3px;
+}
+
+.banner-conteudo h1 {
+    font-size: 52px;
+}
+
+.banner-conteudo p {
+    font-size: 26px;
+}
+
+.cabecalho {
+    margin: 40px 0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho h2 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.secao-bemvindo .cabecalho div {
+    text-align: center;
+    line-height: 38px;
+}
+
+.container-imagens {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-imagens img {
+    width: 320px;
+    height: 200px;
+}
+
+.secao-quartos div {
+    border-bottom: 2px solid #06a68e;
+    text-align: center;
+}
+
+.secao-quartos p {
+    padding: 10px 0;
+}
+
+.secao-quartos a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sobre-conteudo {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sobre-descricao {
+    width: 475px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-descricao div {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobre-descricao p {
+    width: 350px;
+}
+
+.sobre-descricao img {
+    width: 120px;
+    height: 120px;
+}
+
+/*============================RODAPÉ============================*/
+.secao-rodape {
+    background-color: #49997c;
+}
+
+.rodape-conteudo {
+    color: #fff;
+}
+
+.rodape-contatos {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-contatos div {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rodape-contatos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape-contatos h4 {
+    font-size: 20px;
+}
+
+.rodape-copyright {
+    text-align: center;
+    border-top: 2px solid #488056;
+    font-weight: bold;
+    padding: 20px 0;
+}
